@@ -1,8 +1,27 @@
-# HeartAttack_Prediction
-<p>Heart disease is a major cause of death worldwide. Early detection of heart attack risk can help in preventing life-threatening complications. Machine learning algorithms can be used to predict the risk of heart attack by analyzing a large dataset of patient records.
-The main objective of this project is to develop a machine learning model that can accurately predict the likelihood of a heart attack for a given patient based on various risk factors such as age, sex, chest pain, blood pressure, cholesterol levels, blood sugar level, and other medical conditions.<p>
+<h3> <p align="center"> Heart Attack Prediction using Machine Learning</p> </h3>
 
-***Dataset attribute information***
+---
+<p align="center">
+<img src="heart-failure-banner-bg.jpg" width="300" height="300" />
+</p>
+<p>
+Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worldwide. Four out of 5CVD deaths are due to heart attacks and strokes, and one-third of these deaths occur prematurely in people under 70 years of age. Heart failure is a common event caused by CVDs and this dataset contains 11 features that can be used to predict a possible heart disease.
+
+People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
+</p>
+
+<p>
+Heart disease is a major cause of death worldwide. Early detection of heart attack risk can help in preventing life-threatening complications. Machine learning algorithms can be used to predict the risk of heart attack by analyzing a large dataset of patient records.
+The main objective of this project is to develop a machine learning model that can accurately predict the likelihood of a heart attack for a given patient based on various risk factors such as age, sex, chest pain, blood pressure, cholesterol levels, blood sugar level, and other medical conditions.
+<p>
+
+---
+
+**DATASET USED :[ Kaggle heart-failure-prediction](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)**
+
+<i>SOURCE : UCI Machine Learning Repository</i>
+
+**Dataset attribute information**
 
 <b> age:</b> age in years<br>
 <b> sex:</b> sex (1 = male; 0 = female)<br>
@@ -31,6 +50,5 @@ The main objective of this project is to develop a machine learning model that c
 -- Value 0: < 50% diameter narrowing<br>
 -- Value 1: > 50% diameter narrowing<br>
 <br>
-<i>SOURCE : UCI Machine Learning Repository</i> 
 
 The project's outcome will be a machine learning model that can accurately predict the likelihood of a heart attack for a given patient based on their risk factors, which can assist healthcare professionals in providing early intervention and preventive measures.
